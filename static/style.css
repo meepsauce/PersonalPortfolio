@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+button {
+  font-family: inherit;
+  font-size: medium;
+  padding: 10px 4px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  
 }
 
 blockquote {
@@ -19,9 +31,10 @@ code {
 
 .md {
   position: absolute;
-  top: 50%;
+  display: block;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, 0%);
+  max-width: 50%;
   text-align: left;
 }
 
@@ -36,8 +49,10 @@ a {
 
 .top {
   position: relative;
-  left: 35
-  %;
+  display: block;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  max-width: 50%;
 }
 
 .project {
@@ -63,8 +78,8 @@ a {
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animated_text 10s ease-in-out infinite;
-	-webkit-animation: animated_text 103s ease-in-out infinite;
+	animation: animated_text 2s ease-in-out none;
+	-webkit-animation: animated_text 2s ease-in-out none;
 }
 
 @keyframes animated_text {

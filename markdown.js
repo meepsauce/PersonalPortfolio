@@ -17,10 +17,12 @@ function markdownParser(data) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <body>
     <div class="top">
-    <h1 class="title">Theo Gillespie</h1>
-    </div>
+<h1 class="title">Theo Gillespie</h1>
+<div>
+    <a href="/"><button>Home</button></a>
+</div>
+</div>
     <div class="md">
     ${output}
     </div>
