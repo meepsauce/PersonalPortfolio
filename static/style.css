@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+code {
+    padding: 5px;
+    background: rgb(32, 32, 32);
+    color: white;
+    border-radius: 5px;
+}
+
+.md {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: left;
+}
+
+hr {
+  border-top: 2px solid black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.top {
+  position: relative;
+  left: 35
+  %;
+}
+
+.project {
+  outline: 1px solid dimgray;
+  max-width: 20%;
+  border-radius: 4px;
+  padding: 6px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.category {
+  overflow: auto;
+}
+
+.title {
+	background: linear-gradient(-45deg, #d03030, #d03030, #3e60e8, #3e60e8);
+	background-size: 300%;
+	font-weight: 900;
+	font-size: 4vw;
+	letter-spacing: -5px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 103s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
