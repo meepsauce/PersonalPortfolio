@@ -36,7 +36,6 @@ fetch('./api/projects')
   document.getElementById("main").innerHTML = cats.join("");
 
   Object.keys(orginized).forEach((key) => {
-    const color = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById(key).innerHTML = `<h1 style="color: ${"#" + color};">${key} (${orginized[key].length}):</h1><br>` + orginized[key].join("") + "<hr>";
+    document.getElementById(key).innerHTML = `<h1>${key} (${orginized[key].length}):</h1><br>` + orginized[key].join("") + "<hr>";
   })
 });
