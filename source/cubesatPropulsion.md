@@ -1,5 +1,5 @@
 title=CubeSat Propulsion
-description="Ion Engine go brrr"
+description=Ion Engine go brrr
 date=10/2022
 category=Gifted
 status=Finished
@@ -24,5 +24,4 @@ All this amounted in my paper turning from a brief overview of various propulsio
 Therefore, I lovingly present my 30 page paper that succeeds as making you a expert on the many, many, many propulsion systems CubeSats employ (and why), and additionally provides "helpful" diagrams that assist with the explanation (mostly helpful for the weird geometries of ion engines).
 
 **Link:**
-[An Evaluation of Emerging Propulsion Technologies for the CubeSatellite Standard
-](https://docs.google.com/document/d/1FWuudJC1OTcF0hfW1B46wGfUeG2ItQ2tYo7nr_BhV5o/edit?usp=sharing)
+<https://docs.google.com/document/d/1FWuudJC1OTcF0hfW1B46wGfUeG2ItQ2tYo7nr_BhV5o/edit?usp=sharing>

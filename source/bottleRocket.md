@@ -1,5 +1,5 @@
 title=Bottle Rocket Sim
-description="whoosh"
+description=whoosh
 date=2020-ish
 category=Ballistics
 status=Finished
