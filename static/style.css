@@ -66,12 +66,16 @@ a {
   margin-left: 5px;
 }
 
+a {
+  color: #3e60e8;
+}
+
 .category {
   overflow: auto;
 }
 
 .title {
-	background: linear-gradient(-45deg, #d03030, #d03030, #3e60e8, #3e60e8);
+	background: linear-gradient(-45deg, #d03030, #c7dc27, #49e83e, #3e60e8);
 	background-size: 300%;
 	font-weight: 900;
 	font-size: 4vw;
@@ -79,8 +83,8 @@ a {
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animated_text 4s ease-in-out infinite;
-	-webkit-animation: animated_text 4s ease-in-out infinite;
+	animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 10s ease-in-out infinite;
 }
 
 img {
@@ -91,4 +95,8 @@ img {
 	0% { background-position: 0px 50%; }
 	50% { background-position: 100% 50%; }
 	100% { background-position: 0px 50%; }
+}
+
+b {
+  font-weight: bold;
 }

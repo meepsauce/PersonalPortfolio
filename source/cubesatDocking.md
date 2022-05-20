@@ -7,6 +7,8 @@ status=Finished
 # CubeSat Docking 
 ### TLDR: it is really really hard, and is therefore really really cool
 
+*Links are at the bottom*
+
 This project consisted of three parts:
 - A video, detailing what tools and processes a satellite requires in order to dock (and if its practical)
 - My own docking port that I designed in Fusion 360
@@ -34,14 +36,18 @@ Regardless, for this project I definitely employed the Kaplan Objectives (a, b) 
 
 The simulation is a jupyter notebook and has a much more through explanation (and code).
 
-I had successfully created my video and presentation about the subject, but I thought t was lame and boring that I did not further extrapolate on the subject. Therefore, I made a fairly basic simulation that attempts to compute the processes required to dock two different CubeSatellites using a electromagnet based scheme. The CubeSatellites are both are outfitted with their own electromagnet (simulated as a naive point magnet, simulating a gross field of magnetism is way way way out of the scope), and they use a somewhat-tuned PID loop that works to modulate the "current" to the electromagnet. The system is designed to produce a output that scales inversely to the distance between them, with the hope they won't smash into each other.
+I had successfully created my video and presentation about the subject, but I thought t was lame and boring that I did not further extrapolate on the subject. Therefore, I made a fairly basic simulation that attempts to compute the processes required to dock two different CubeSatellites using a electromagnet based scheme. The CubeSatellites are both are outfitted with their own electromagnet (simulated as a naive point magnet, simulating a gross field of magnetism is way way way out of the scope), and they use a somewhat-tuned PID loop that works to modulate the "current" to the electromagnet. The system is designed to produce a output that scales inversely to the distance between them, with the hope they won't smash into each other. The notebook (see the link) has images with various waveforms that help with this explanation.
 
+## 3D Model
+In additition to the above, I also made various 3D models for docking ports/CubeSats for the video. One of these models was a actual, somewhat engineered design that was designed to be a symetrical docking port that could easily mount to a CubeSat face. It is specified to be capable of transferring data via SPI/I2C and transferring power of course. It is equiped with a camera for identifying and positioning and a actuated latchng system to mate the two vehicles permenetenly. 
 
-**Video (cringe warning)**: <https://drive.google.com/file/d/1qPq73ubcXuK4QaiFoE8lMGtGwph8bZpo/view?usp=sharing>
+*Video (cringe warning)*: 
+<https://drive.google.com/file/d/1qPq73ubcXuK4QaiFoE8lMGtGwph8bZpo/view?usp=sharing>
 
+*Video's Script*:
+<https://docs.google.com/document/d/1xeVrRnU_AQ8knSjysSR3VEIBlIdDrIV9t7OS3PIccf0/edit?usp=sharing>
 
-**Video's Script**: <https://docs.google.com/document/d/1xeVrRnU_AQ8knSjysSR3VEIBlIdDrIV9t7OS3PIccf0/edit?usp=sharing>
+*Simulation*: 
+<https://drive.google.com/file/d/11h4MznWY5nqlX7k8JvhWYgiDmmlDdC8W/view?usp=sharing>
 
-**Simulation**: <https://drive.google.com/file/d/11h4MznWY5nqlX7k8JvhWYgiDmmlDdC8W/view?usp=sharing>
-
-**3D Model**: (*coming soon*)
+*3D Model*: coming soon
