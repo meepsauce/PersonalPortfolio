@@ -2,7 +2,7 @@ const fs = require('fs')
 const {markdownParser} = require("./markdown.js")
 const {metaParser} = require("./meta.js")
 
-const STATICDIR = "./static"
+const STATICDIR = "./"
 const SOURCEDIR = "./source"
 
 var metadata = []
