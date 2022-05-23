@@ -8,6 +8,8 @@ status=Finished
 # CubeSat Simulator
 ### I am not kidding when I say you need 16GB of memory 
 
+![bluescreen of death](https://upload.wikimedia.org/wikipedia/commons/5/56/Bsodwindows10.png)
+
 *Link to the paper is at the bottom*
 
 If you haven't gotten the idea yet, I really like space. It happens that I really like computers. Building on this, I wrote a simulation for my last project so I decided that it would be a fine project to actually research the maths/methods that people employ to actually perform these simulations.
@@ -45,10 +47,14 @@ I made the classic mistake of listening to the allure of precision and ignoring 
 
 ## Physics Teachers
 
+
+![phyusics](https://www.researchgate.net/profile/Chengliang-Huang/publication/224141414/figure/fig1/AS:393761701023751@1470891513830/Global-coordinate-system-and-the-local-coordinate-system.png)
+
+*Source: Chengliang Huang*
+
 During this project I encountered a pretty important problem I needed to fix. It was seemingly trivial to do, but I did not how to peruse it. Essentially, I have a box with a rotation, lets say its rotated by 90 degrees on its y-axis. This means if I just naively add forces, it fails to account for the rotation of the body, meaning that it is not relevant to the local space of the box. It is a simple problem, with a not simple solution. I therefore asked the physics teachers, which mostly resulted in some quizzical looks and a brief explanation on the law of cosines which was semi-helpful. 2 teachers later, I kinda gave up and just tried to find a solution myself. Turns out the solution was literally already in my code, I just did not realize it. Briefly, I used Quaternions (if you want to know what these are, I recommend Jackson's project) as the representation of rotation and I forgot a crucial property of them: you can multiply them by vector in order to rotate it. Therefore, I can supply a force vector, rotate it by the current rotation, and bam, it is in local space.
 
 ## Math is hard
-
 A major issue with this project is me. This project pushed me to the limit of my mathematical capabilities (essentially I do not know calculus) and that was a issue. In terms of practicality, I spent more time research the maths then doing the actual assignment, and even then remained pretty confused. It makes me mad when I write code that I do not fully understand, and that is a good summary of this entire project to be honest.
 
 *Link*:

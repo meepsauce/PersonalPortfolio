@@ -7,6 +7,10 @@ status=Finished
 # CubeSat Docking 
 ### TLDR: it is really really hard, and is therefore really really cool
 
+![Docking](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/08/docking_cubesats/16097553-2-eng-GB/Docking_CubeSats_pillars.jpg)
+
+*Source: ESA*
+
 *Links are at the bottom*
 
 This project consisted of three parts:
@@ -18,7 +22,7 @@ This project consisted of three parts:
 ## The Video
 In very practical terms, this sucked to make, I did not realize how hard it was to edit videos, especially with all the content I wanted to include.
 
-I used DaVinci Resolve for the editing, and it was pretty easy to tamper with. Instead of using something like Google Slides/Powerpoint for the composure I just did it all in the editor, which made it look clean and good but took forever. This is a very long winded way of saying that it took 6 straight hours of constant work and I didn't sleep for that entire day.
+I used DaVinci Resolve for the editing, and it was pretty easy to tamper with. Instead of using something like Google Slides/Powerpoint for the composure I just did it all in the editor, which made it look clean and good but took forever. This is a very long winded way of saying that it took 6+ straight hours of constant work and I didn't sleep for that entire day.
 
 Oh yeah also I made all the animations my self in blender and majority of the satellite models I modeled myself in Fusion 360. All that was tricky, but considerably more fun as I enjoyed messing with the earth shader/material and the associated lighting.
 
@@ -49,5 +53,3 @@ In additition to the above, I also made various 3D models for docking ports/Cube
 
 *Simulation*: 
 <https://drive.google.com/file/d/11h4MznWY5nqlX7k8JvhWYgiDmmlDdC8W/view?usp=sharing>
-
-*3D Model*: coming soon
