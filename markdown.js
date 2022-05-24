@@ -20,7 +20,7 @@ function markdownParser(data) {
     <div class="top">
 <h1 class="title">Theo Gillespie</h1>
 <div>
-    <a href="/">Home</a>
+    <a href="/PersonalPortfolio">Home</a>
 </div>
 </div>
     <div class="md">
